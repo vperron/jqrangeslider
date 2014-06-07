@@ -1,5 +1,12 @@
 jQRangeSlider
 -------------
+* 5.7.0
+	* Enhancement #154: 
+		* Introduced a new option "symmetricPositionning" for a different way of positionning handles
+		* Allowed minimum ranges to be 0
+	* Fixed #152: Calling resize on an hidden slider resets values
+	* Fixed #146: Inverted labels in small ranges
+	* Fixed #153 Edit range slider does not parse float number correctly
 * 5.6.0: 2014-02-01
 	* Fixed #144: Inverted label order with small range
 	* Fixed #146: Setting values via the `min`, `max`, or `values` methods produces an invalid slider
